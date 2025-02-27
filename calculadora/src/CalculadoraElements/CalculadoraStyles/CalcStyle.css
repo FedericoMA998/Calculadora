@@ -1,0 +1,208 @@
+/* Calcultor body */
+.generalView{
+    justify-content: center;
+    display: flex;
+}
+
+.calculatorView{
+    border-style: solid;
+    border-width: 5px;
+    border-color: #1A1347; /*252330*/
+    border-radius: 15px;
+    max-width: 400px;
+    height: 560px;
+    align-self: center;
+    margin-top: 5%;
+    background-color: #D6D7D2; /*f6f09c  D6D7D2*/
+}
+
+/* Display view */ 
+.infoView{
+    border-width: medium 3px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: #252330;
+    background-color: #252330; /*252330 - 2B3541*/
+    text-align: right;
+    height: 70px;
+    margin: 9px;
+}
+
+.displayView{
+    border-width: medium 3px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: #252330;
+    background-color: #252330 /*252330 - 2B3541*/;
+    text-align: right;
+    height: 70px;
+    width: 100%;
+    margin: -4px 0px 0px -4px;
+    color: #fff;
+    font-size: 3rem;
+}
+
+/* Buttons area --  individual */
+.clearBtn{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #000;
+    color: #fff;
+    font-size: 4rem;
+}
+
+.equalBtn{
+    width: 170px;
+    height: 80px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #ffe448;
+}
+
+.igualImg{
+    width: 70px;
+    height: 40px;
+    margin-left: -5px;
+}
+
+/* Buttons area -- global */
+.buttonsArea{
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px;
+}
+
+.signBtn{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    border-style: none;
+    
+}
+
+.button{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #05262D;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.images{
+    width: 80px;
+    height: 80px;
+    margin-left: -5px;
+}
+
+
+@media (max-width: 500px) {
+    /* Calculator body */
+    .generalView{
+        justify-content: center;
+        display: flex;
+    }
+
+    .calculatorView{
+        border-style: solid;
+        border-width: 5px;
+        border-color: #1A1347; /*252330*/
+        border-radius: 15px;
+        max-width: 350px;
+        height: 510px;
+        align-self: center;
+        margin-top: 20%;
+        background-color: #D6D7D2   /*f6f09c  D6D7D2*/;
+    }
+
+    /* Display area */
+    .infoView{
+        border-width: medium 3px;
+        border-style: solid;
+        border-radius: 8px;
+        border-color: #252330;
+        background-color: #252330 /*252330 - 2B3541*/;
+        text-align: right;
+        height: 70px;
+        margin: 9px;
+    }
+
+    .displayView{
+        border-width: medium 3px;
+        border-style: solid;
+        border-radius: 8px;
+        border-color: #252330;
+        background-color: #252330 /*252330 - 2B3541*/;
+        text-align: right;
+        height: 70px;
+        width: 100%;
+        margin: -4px 0px 0px -4px;
+        color: #fff;
+        font-size: 3rem;
+    }
+
+    /* Buttons area --  individual */
+    .clearBtn{
+        width: 70px;
+        height: 70px;
+        border-radius: 10px;
+        border-style: none;
+        background-color: #000;
+        color: #fff;
+        font-size: 3rem;
+    }
+
+    .equalBtn{
+        width: 150px;
+        height: 70px;
+        border-radius: 10px;
+        border-style: none;
+        background-color: #ffe448;
+    }
+
+    .igualImg{
+        width: 70px;
+        height: 3¿40px;
+        margin-left: -5px;
+    }
+
+    /* Buttons area -- global */
+    .buttonsArea{
+        justify-content: center;
+        display: flex;
+        padding: 10px;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 10px;
+    }
+
+    .signBtn{
+        width: 70px;
+        height: 70px;
+        border-radius: 10px;
+        border-style: none;
+        
+    }
+
+    .button{
+        width: 70px;
+        height: 70px;
+        border-radius: 10px;
+        border-style: none;
+        background-color: #05262D;
+        font-size: 2rem;
+        color: #fff;
+    }
+    
+    .images{
+        width: 70px;
+        height: 70px;
+        margin-left: -5px;
+    }
+}
